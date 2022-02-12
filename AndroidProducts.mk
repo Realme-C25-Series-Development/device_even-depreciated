@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX2020.mk
+    $(LOCAL_DIR)/arrow_even.mk
+
+COMMON_LUNCH_CHOICES := \
+    arrow_even-user \
+    arrow_even-userdebug \
+    arrow_even-eng

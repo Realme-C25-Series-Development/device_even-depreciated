@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := android.hardware.light@2.0-service.RMX2020
+LOCAL_MODULE := android.hardware.light@2.0-service.even
 LOCAL_MODULE_STEM := android.hardware.lights-service.mediatek
 LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/vendor_overlay/$(PLATFORM_VNDK_VERSION)/bin
 LOCAL_MODULE_RELATIVE_PATH := hw
