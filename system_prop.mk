@@ -27,7 +27,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Iorap
 PRODUCT_PROPERTY_OVERRIDES += \
-   iorapd.perfetto.enable=true \
+   persist.device_config.runtime_native_boot.iorap_readahead_enable=true \
    iorapd.readahead.enable=true
 
 # Display
