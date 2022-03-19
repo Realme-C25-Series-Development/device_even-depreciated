@@ -28,11 +28,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 PRODUCT_NAME := arrow_even
 PRODUCT_DEVICE := even
 PRODUCT_BRAND := realme
-<<<<<<< HEAD:lineage_even.mk
 PRODUCT_MODEL := Realme C25 Series
-=======
-PRODUCT_MODEL := realme Even
->>>>>>> 01c1661 (even: Set Even in Hotspot and Device name):aosp_even.mk
 PRODUCT_MANUFACTURER := realme
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
@@ -51,9 +47,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
-<<<<<<< HEAD:lineage_even.mk
 
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
-=======
->>>>>>> 01c1661 (even: Set Even in Hotspot and Device name):aosp_even.mk
